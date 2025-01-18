@@ -118,6 +118,17 @@ main,footer{
   max-width: 100%;
   margin-top: 30px;
 }
+.experience-badge{
+  padding: 45px 42px;
+  font-weight: 500px;
+  font-size: 1.5rem;
+  margin-top: -100px;
+  margin-left: -150px;
+}
+.Experience-year{
+  font-weight: 900;
+  font-size: 4rem;
+}
 /* Some facts styles */
 .some-facts{
   text-align: left;
@@ -197,6 +208,10 @@ main,footer{
   .sponsor-title, .Featured-you-enjoy, .some-facts {
     margin-top: 0px;
   }
+  .experience-badge{
+    margin-left: 0;
+
+  }
 }
 @media screen and (min-width:576px) and (max-width:992px) {
   .Teams-features{
@@ -219,5 +234,9 @@ main,footer{
   }
   .sponsor-title, .Featured-you-enjoy, .some-facts, .copyright {
     margin-top: 0px;
+  }
+  ..experience-badge{
+    margin-right: -200px;
+
   }
 }
